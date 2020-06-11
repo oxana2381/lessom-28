@@ -14,4 +14,7 @@ export function Apod(id){
     this.renderApp = renderApp;
        
     this.addPictureOfDay=addPictureOfDay ;
+
+this.addPictureOfDay();
+body.append(this.container);
 }

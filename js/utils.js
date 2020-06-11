@@ -72,5 +72,4 @@ fetch('https://api.nasa.gov/planetary/apod?api_key=AgAOKPwUaNaoMb7jMr4ETKQGGqlMt
     element.innerText = this.dateFormatter();
     this.container.append(element)
 }
-this.addPictureOfDay();
-body.append(this.container);
+
