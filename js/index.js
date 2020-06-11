@@ -1,7 +1,7 @@
 
-import {Apod } from '././apod.js';
+import {Apod } from './apod.js';
 
 
 
 
-window.apod() = new Apod('apod');
+window.apod = new Apod('apod');

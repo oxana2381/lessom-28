@@ -1,6 +1,6 @@
-import {dateFormatter} from '././utils.js';
-import {renderApp} from '././utils.js';
-import {addPictureOfDay} from '././utils.js';
+import {dateFormatter} from './utils.js';
+import {renderApp} from './utils.js';
+import {addPictureOfDay} from './utils.js';
 
 export function Apod(id){
     this.id = id;
